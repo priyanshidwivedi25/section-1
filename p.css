@@ -1,0 +1,29 @@
+.feature-card{
+    border:2px solid red;
+    text-align:center;
+    padding:50px 30px;
+    color: var(--theme-color);
+    transition-duration:0.3s; /*for smoothly trasitio*/
+    border-radius:5px;  /*give curve shape*/
+}
+.section-feature{
+    padding: 50px  300px;
+    font-family:roboto;
+    display: flex;
+}
+.section-title
+{
+    text-align: center;
+    font-family: roboto;
+    font-size:40px;
+}
+
+.card-containefr{
+    display:flex;
+}
+.feature-card:hover{
+    backgroud-color:blue;
+    color:white;
+}                
+                    /*used for color the icon when clickspace  video  matlb vediio ke andart agega*/
+

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", initial-scale="1.0">
+    <title>Document</title>
+
+     <style>
+    :root{ 
+        --theme-color:rgb(39, 70, 83);
+      }
+    header{
+
+      background-image: url('https://images.hdqwalls.com/wallpapers/pleasant-landscape-mountain-4k-72.jpg');
+      height:80vh;
+      background-size: cover;
+      font-size: 20px;
+      text-align:center;
+      display:flex;
+      flex-direction:column;
+    }
+      .hero-title{
+
+        margin:0px;
+
+      }
+      .feature-section{
+              text-align: center;
+              padding:40px 50px;
+              font-family:roboto;
+
+      }
+      
+      .section-title{
+        padding:50px 50px;
+        text-align:center;
+        color:rgb(44, 4, 1);
+        font-size:100px;
+      }
+    .card-container{
+        display:flex;
+        gap:20px;
+        border:2px;
+        background-color: blue;
+
+    }
+    
+    .feature-card{
+        font-family:roboto;
+        padding:30px 200px;
+        font-size:larger;
+       background-color:rgb(163, 221, 235);
+       border-radius: 50px; 
+       transition:.5s;
+       
+
+    }
+     .feature-card:hover
+            {
+        background-color:rgb(170, 118, 51);
+        font-size:20px;
+        transition-duration:5s;
+
+    }
+    header:hover
+            {
+        transition:.2s;
+        background-image: url('https://t4.ftcdn.net/jpg/02/55/17/43/360_F_255174366_ojDuATz84e5h7lIlxh2moUJa9Kpd5wKk.jpg');
+        height:80vh;
+        background-size:cover;
+    }
+
+    .video-section video {
+           width:100%;
+           height:700px;
+           border-color: black;
+           border-width: 20px;
+    
+    }
+    .contact-form{
+      display:inline-block;
+    }
+     
+    .text-input , .text-area{
+      display:block;
+          
+      width:100px;
+      padding:10px;
+
+    }
+     </style>
+</head>
+<body>
+<header>
+    
+        <h1 class="hero-title" style="text-align: center; font-size: 3rem;">Welcome to my site</h1>
+        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam rem corporis iste odio neque sunt
+            necessitatibus repellendus placeat labore doloremque.</h3>
+
+</header>
+
+<main>
+   <section class="feature-section">
+      <h4  class="section-title">FEATURE OF  OUR  SITES  ARE</h4>
+      <div class="card-container">
+        <div class="feature-card">
+            <i class="fa-5x fa-solid fa-pen-nib"></i>
+            <h2> feature 1</h2>
+
+        </div>
+        <div class="feature-card">
+            <i class="fa-5x fa-solid fa-pen-nib"></i>
+            <h2>FEATURE 2</h2>
+        </div>
+
+        <div class="feature-card">
+            <!-- <i class="fa-5x fa-solid fa-pen-nib"></i> -->
+            <h2> FEATURE 3</h2>
+        </div>
+    </div>
+        
+    </section>
+
+    <section class="section-works">
+      <div class="video-container">
+     <h5 class="section-video" style="font-size: 50px;  color:brown; text-align:center;"> OUR  WORKS</h5>
+
+     <div class="video-section">
+      <video src="video.mp4" autoplay > my video</video>
+     </div>
+     </div>
+
+    </section>
+    <section class="section-title">
+
+      <h4 class="form-type" style="color:brown; font-size:40px;  text-align:center;">FORM --SECTION</h4>
+      <form  class="contact-form">
+        <label style="font-size: 30px; text-align: left;"> NAME </label>
+        <input type="text-input"  class="text-input">
+        <label>e-mail-address</label>
+        <input type="text"   class="text-input">
+        <label>MESSAGE</label>
+        <textarea  class="text-input-area">
+        
+      </form>
+
+
+    
+
+
+    </section>
+
+
+
+
+
+</main>
+</body>
+</html>
